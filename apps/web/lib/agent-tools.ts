@@ -1,4 +1,4 @@
-// Extra tools for the Microburbs Agent. All numbers come from Microburbs (cached) or from plain arithmetic
+// Extra tools for the Lens Agent. All numbers come from Microburbs (cached) or from plain arithmetic
 // on figures the user gives; nothing here estimates market values on its own.
 import { z } from "zod";
 import { DUTY_SOURCE, type Mode, nswTransferDuty, type Sal } from "@mb/contracts";

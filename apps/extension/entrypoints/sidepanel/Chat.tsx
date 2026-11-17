@@ -1,4 +1,4 @@
-// "Microburbs Agent": a chat agent that answers only from cited Microburbs data
+// "Lens Agent": a chat agent that answers only from cited Microburbs data
 // and can re-run the alternatives search with the user's own criteria.
 import { useEffect, useRef, useState } from "react";
 import {
@@ -237,7 +237,7 @@ export function Chat({ data, mode }: { data: PropertyResponse; mode: Mode }) {
     // Highlighted with a soft blue glow: the agent is the centre of the panel.
     <div className="agent-glow rounded-xl">
       <Card
-        title="Microburbs Agent"
+        title="Lens Agent"
         right={
           turns.length ? (
             <button

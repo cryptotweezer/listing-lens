@@ -28,7 +28,7 @@ Screenshots of the panel with an example listing (Unit 1204, 9 Saltwater Lane, P
 
 **Just ask.** The assistant answers only from cited Microburbs data.
 
-![Microburbs Agent](assets/agent.png)
+![Lens Agent](assets/agent.png)
 
 **What is around it.** Development applications, public housing, flood and heritage overlays, and the nearest transport.
 
@@ -84,7 +84,7 @@ The panel reads top to bottom.
 
 **Do the numbers work?** To invest or to live in. Budget, deposit, rate and strata are editable (strata starts at the suburb median from Microburbs). It shows cash needed upfront with NSW transfer duty (Revenue NSW 2026/27 rates, no concessions), weekly repayments, the rent the home could earn from our rent model, gross yield against the suburb, weekly cash flow, owning against renting the same home, the suburb's price trend over 10 and 5 years, and the budget check. Settings stay in this browser. For a rental it checks the weekly budget.
 
-**Microburbs Agent.** A chat under the overview. Suggested questions cover the fair price, room to negotiate, the catch, cheaper options, comparisons, price trend, development, suburbs, the agency and the block. Answers use cited Microburbs data, and the repayment calculator includes NSW transfer duty. On a rental the suggestions switch to rent, transport and risks.
+**Lens Agent.** A chat under the overview. Suggested questions cover the fair price, room to negotiate, the catch, cheaper options, comparisons, price trend, development, suburbs, the agency and the block. Answers use cited Microburbs data, and the repayment calculator includes NSW transfer duty. On a rental the suggestions switch to rent, transport and risks.
 
 **Local context.** Planning applications in the suburb over 12 months, public housing, flood, heritage, and the nearest train, light rail, ferry or bus stop. A button scrolls to the full report, and every figure keeps its source and date.
 
