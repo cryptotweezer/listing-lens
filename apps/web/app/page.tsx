@@ -1,7 +1,7 @@
 // Public landing page: what Listing Lens does for buyers, how to install it, who powers the data and who built it.
 import { FeatureTabs } from "@/components/FeatureTabs";
 
-const DOWNLOAD_URL = "https://github.com/cryptotweezer/listing-lens/releases/latest/download/listing-lens.zip";
+import { DOWNLOAD_URL } from "@/lib/site";
 const REPO_URL = "https://github.com/cryptotweezer/listing-lens";
 const MICROBURBS_URL = "https://www.microburbs.com.au/";
 const CV_URL = "https://cv.andreshenao.com.au";
