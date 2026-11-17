@@ -1,0 +1,23 @@
+/* The extension's own styles, plus the component folders Tailwind should scan from here. */
+@import "../entrypoints/sidepanel/style.css";
+@source "../entrypoints";
+@source "./";
+
+@media (pointer: coarse) {
+  input {
+    font-size: 16px !important;
+  }
+}
+
+/* Example only: links in the demo go nowhere. */
+a {
+  pointer-events: none;
+  cursor: default;
+}
+
+html,
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}

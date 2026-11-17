@@ -1,0 +1,14 @@
+# CLI deploys upload only what the web app needs to build.
+/*
+!apps
+!packages
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!tsconfig.base.json
+apps/extension/.output
+apps/extension/.wxt
+apps/web/.next
+**/node_modules
+**/.env*
+!**/.env.example
