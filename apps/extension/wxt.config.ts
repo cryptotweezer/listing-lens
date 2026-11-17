@@ -11,7 +11,7 @@ export default defineConfig({
   modules: ["@wxt-dev/module-react"],
   vite: () => ({ plugins: [tailwindcss()], build: { sourcemap: true, minify: false } }),
   manifest: {
-    name: "Microburbs Listing Lens",
+    name: "Listing Lens",
     description: "Exact-unit Microburbs data next to City of Sydney listings on realestate.com.au and Domain.",
     key: EXTENSION_KEY,
     permissions: ["sidePanel", "tabs", "storage"],
@@ -20,6 +20,6 @@ export default defineConfig({
       "https://www.domain.com.au/*",
       `${new URL(backend).origin}/*`,
     ],
-    action: { default_title: "Open Microburbs panel" },
+    action: { default_title: "Open Listing Lens" },
   },
 });

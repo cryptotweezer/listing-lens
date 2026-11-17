@@ -71,7 +71,7 @@ const jsonLd = {
       applicationSubCategory: "Real estate",
       operatingSystem: "Google Chrome",
       downloadUrl: DOWNLOAD_URL,
-      softwareVersion: "1.2.1",
+      softwareVersion: "1.2.2",
       isAccessibleForFree: true,
       offers: { "@type": "Offer", price: "0", priceCurrency: "AUD" },
       areaServed: { "@type": "City", name: "Sydney", containedInPlace: { "@type": "State", name: "New South Wales" } },

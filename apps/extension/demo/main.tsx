@@ -6,6 +6,32 @@ import { createRoot } from "react-dom/client";
 import { ADDRESS, ANSWERS, ALTERNATIVES, DEVELOPMENTS, FALLBACK, GNAF, PROPERTY, PULSE, SECTIONS } from "./fixture";
 import "./style.css";
 
+// ?avm=1 (promo video only): the same example listing, valued by a Microburbs estimate instead of nearby sales.
+if (new URLSearchParams(location.search).get("avm") === "1") {
+  const today = new Date().toISOString().slice(0, 10);
+  const f = PROPERTY.facts as unknown as Record<string, unknown>;
+  f.avm = {
+    available: true,
+    value: { predicted_price: 1_350_000, predicted_price_low: 1_290_000, predicted_price_high: 1_420_000, prediction_date: today, confidence_score: 78 },
+    source: "Microburbs AVM",
+    asOf: today,
+  };
+  Object.assign(PROPERTY.verdict!, {
+    low: 1_290_000,
+    high: 1_420_000,
+    sources: [`Microburbs AVM (${today})`],
+    basis: null,
+    label: "below",
+    estimate: 1_350_000,
+    method: "avm",
+    diffPct: -5.6,
+    confidence: "high",
+    note: "Asking is 5.6% below the Microburbs estimate.",
+  });
+  ANSWERS[0]!.answer =
+    "Good value on paper. The middle of the asking range, **$1,275,000**, is **5.6% below** the **$1,350,000** Microburbs estimate [Microburbs AVM].\n- The estimate range is $1.29M to $1.42M.\n- 3 similar 2-bed sales within 320 m have a median of $1,265,000 [recent-sales-nearby].\n- At $13,859/m² it asks 5% less per square metre than similar listed units [listings].";
+}
+
 /* ---------- stand-ins for the extension APIs and the backend ---------- */
 
 const memory = new Map<string, unknown>();
