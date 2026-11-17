@@ -4,7 +4,7 @@ A Chrome extension that shows Microburbs data for the exact unit beside listings
 
 Built by Andres Henao for the [Microburbs](https://www.microburbs.com.au/) hackathon, 7 November 2026 (Task 3, Chrome extension; Task 4, flat rent model), run with UTS and Data Science Sydney. An independent project that uses Microburbs data; it is not a Microburbs product and is not endorsed by Microburbs, realestate.com.au or Domain.
 
-Website: [microburbs-hackathon.vercel.app](https://microburbs-hackathon.vercel.app)
+Website: [lens.andreshenao.com.au](https://lens.andreshenao.com.au)
 
 ## The panel
 
