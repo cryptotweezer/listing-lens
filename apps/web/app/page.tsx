@@ -1,5 +1,6 @@
 // Public landing page: what Listing Lens does for buyers, how to install it, who powers the data and who built it.
 import { FeatureTabs } from "@/components/FeatureTabs";
+import { PromoVideo } from "@/components/PromoVideo";
 
 import { DOWNLOAD_URL } from "@/lib/site";
 const REPO_URL = "https://github.com/cryptotweezer/listing-lens";
@@ -99,6 +100,8 @@ export default function Home() {
       </section>
 
       <main>
+        <PromoVideo />
+
         <section className="section wrap" id="features">
           <div className="split-head">
             <div>
