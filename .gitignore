@@ -47,6 +47,7 @@ ml/SESSION_LOG.md
 
 # Videos
 *.mp4
+!apps/web/public/video/*.mp4
 
 .vercel
 .env*
